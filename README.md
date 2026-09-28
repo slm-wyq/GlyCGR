@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <img src="图片1.svg" alt="GlyCGR overview" width="820">
+  <img src="glycgr_overview.svg" alt="GlyCGR overview" width="820">
 </p>
 
 ## Overview
