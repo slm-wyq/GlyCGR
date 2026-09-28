@@ -88,11 +88,8 @@ The eight taxonomy levels use `data/MPM-fingerprint.csv`; the binary task uses
 | Script | Model(s) and default settings |
 | ------ | ----------------------------- |
 | `benchmark_glycgr_raw.py` | GlyCGR; five seeds (0–4); AdamW, learning rate `1e-3`, weight decay `1e-4`, cosine `T_max=100`, 100 epochs, batch size 64. |
-| `benchmark_glycgr_ablations.py` | GlyCGR-T, GlyCGR-TC and GlyCGR-FF; three seeds (0–2), 100 epochs, batch size 32; each architecture retains its recorded optimizer and learning-rate schedule (`T_max=50`). |
+| `benchmark_glycgr_ablations.py` | GlyCGR-T, GlyCGR-TC and GlyCGR-FF.
 
-Validation Macro-F1 selects the taxonomy checkpoint; validation AUPRC selects
-the immunogenicity checkpoint. Results include per-seed metrics, sample
-standard deviations, training histories, and row-level predictions.
 
 ```bash
 # Run from the repository root. These two commands inspect the data without training.
