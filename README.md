@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <img src="图片1.svg" alt="GlyCGR overview" width="820">
+  <img src="glycgr_overview.svg" alt="GlyCGR overview" width="820">
 </p>
 
 ## Overview
@@ -52,7 +52,7 @@ GlyCGR-master/
 ├── output/                     # Saved embeddings and scores
 ├── weights/                    # Saved model weights
 ├── MD/                         # Structures and docking configuration files
-└── 图片1.svg                   # Overview figure
+└── glycgr_overview.svg        # Overview figure
 ```
 
 ---
